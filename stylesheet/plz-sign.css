@@ -1,0 +1,146 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: "ＭＳ ゴシック", "Osaka－等幅";
+	margin:0px;
+	padding:0px;
+	letter-spacing: 0px;
+	text-align:center;
+	background-image: url(../graphics/g_wall.gif);
+	background-repeat:repeat;
+}
+
+#content
+{
+	background-color:#FFFFFF;
+	padding:0px;
+	margin-top: 10px;
+	margin-bottom:10px;
+	width:800px;
+	border: 1px solid #999999;
+	margin-left:auto;    /* 左側マージンを自動的に空ける */
+	margin-right:auto;   /* 右側マージンを自動的に空ける */
+	text-align:left;     /* 中身を左側表示に戻す */
+}
+
+#navigation
+{
+	padding:2px;
+	font-size:11px;
+}
+
+#footer
+{
+	background-color:#DDDDDD;
+	font-size:9px;
+	width:780px;
+	padding:10px;
+	text-align:right;
+}
+
+div.ad-h-2
+{
+	text-align:center;
+	padding: 5px;
+}
+
+a:active {  color: #F00; text-decoration: none}
+a:link {  color: #5074ae; text-decoration: none}
+a:visited {  color: #3FAE8A; text-decoration: none}
+a:hover {  color: #FF6FAB; text-decoration: none}
+
+#footer a:active { color: #000;}
+#footer a:link { color: #000;}
+#footer a:visited { color: #000;}
+#footer a:hover { color: #FFF;}
+
+p
+{
+	font-size:15px;
+	padding: 5px 15px 5px 15px;
+	margin: 0px 0px 0px 0px;
+}
+
+h1
+{
+	background-image: url(../graphics/b_h1.png);
+	background-repeat: repeat-x;
+	padding: 10px 0px 10px 13px;
+	margin: 5px 0px 5px 0px;
+	background-position: center;
+	background-color: #ffffff;
+	color: #555588;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: normal;
+}
+
+h2
+{
+	font-size:18px;
+    font-weight: bold;
+	margin: 15px 0px 5px 0px;
+	padding: 10px 0px 5px 10px;
+    background-color: #FFFFFF;
+    color: #666666;
+    background-image: url(../graphics/g_h2.png);
+    background-repeat: repeat-y;
+    border-top: 1px solid #999999;
+    border-bottom: 1px solid #999999;
+}
+
+ul {
+	font-size:15px;
+	list-style-image: url(../graphics/g_list.png);
+	list-style-position: outside;
+	padding-right:15px;
+}
+
+pre
+{
+    margin: 7px 7px 7px 7px;
+    padding: 7px 14px 7px 14px;
+    border: 1px solid #999999;
+    font-family: "ＭＳ ゴシック", "Osaka－等幅";
+    background-color: #F0F0F0;
+    overflow: auto;
+    margin-right: 10px;
+    font-size: 12px;
+    letter-spacing: 0px;
+}
+
+blockquote
+{
+    margin: 7px 7px 7px 7px;
+    padding: 7px 14px 7px 14px;
+    background: #F0F0F0;
+    border: 1px solid #999999;
+	font-size:15px;
+}
+
+
+span.red
+{
+	color:#DD0000;
+}
+
+div.link
+{
+	text-align:right;
+	padding-right:15px;
+	font-weight:bold;
+}
+
+table.inputform tr, td, input
+{
+	font-size:12px
+}
+
+div.loginbox
+{
+	float:right;
+	margin: 5px;
+	padding: 5px;
+	border: 4px dotted #999;
+}

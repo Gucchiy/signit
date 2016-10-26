@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /plz-sign/
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www.plz-sign.com
+RewriteRule ^(.*)$ http://plz-sign.com/$1 [R=301,QSA,L]
